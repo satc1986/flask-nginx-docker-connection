@@ -1,7 +1,7 @@
 from app import app
 import os
 
-@app.route("")
+@app.route("/")
 def index():
     app_name = os.getenv("APP_NAME")
 
